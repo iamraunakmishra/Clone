@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#main{
+    background-color: #101111;
+}
+#csr{
+    width: 2.5vw;
+    height: 2.5vw;
+   /* background-color: red;*/
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    border: 2px solid aliceblue;
+    z-index: 9999;
+}
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+    position: absolute;
+    z-index: 9999;
+}
+#op{
+  /*  background-color: red;*/
+    margin-top: 5.5vw;
+    overflow: hidden;
+}
+#y{
+    display: flex;
+}
+#y 
+#l{
+    color: aliceblue;
+    margin-left: 15vw;
+}
+#q{
+    color: aliceblue;
+    margin-left: 0.5vw;
+}
+.yi{
+    margin-left: 15vw;
+    font-size: 10vw; 
+    color: aliceblue;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #101111;
+}
+#nav{
+    width: 100%;
+    height: 4vw;
+  /*  background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+}
+#nav-part1{
+    margin-top: 0.5vw;
+    margin-left: 2vw;
+    color: aliceblue;
+  
+}
+#con{
+    font-size: 0.7rem;
+    color: aliceblue;
+    margin-top: 0.5vw;
+}
+#nav-part2{
+    display: flex;
+    gap: 2vw;
+    margin-top: 0.5vw;
+    margin-right: 2vw;
+    color: aliceblue;
+} 
+.horizontal-wrapper {
+    display: flex;         /* Enable Flexbox for horizontal layout */
+    align-items: flex-start; /* Align items at the top */
+    justify-content: center; /* Center them horizontally */
+    margin-left: 0vw;     /* Adjust the positioning */
+    margin-top: 6.5vw;       /* Keep the top margin */
+    gap: 5vw;              /* Add some space between "01" and "We Design" */
+}
+
+#z {
+  /*  background-color: red;*/
+    font-size: 3.5vw;
+    color: aliceblue;
+    margin-top: 1vw;
+}
+
+#co {
+   /* background-color: red;*/
+    font-size: 3.5vw;
+    color: aliceblue;
+}
